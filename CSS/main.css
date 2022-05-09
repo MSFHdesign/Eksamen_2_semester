@@ -1,12 +1,20 @@
+@import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap'); /* font-family: 'Permanent Marker', cursive; */
+@import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap'); /* font-family: 'Permanent Marker', cursive; */
 root{
-    /* Fonts */
-    
+    /* Fonts 
+    font-family: 'Permanent Marker', cursive; LOGO 
+    font-family: 'Permanent Marker', cursive; Headlights
+    */
     /* Farver */
-    
+    --BGcolor: #1B1B11;
+    --TXTcolor: #F4F1E8; 
+    --element: #999960;
+    --pop: #ff03fb; 
+
     /* Padding */
-
+    Padding: 0;
     /* Margin */
-
+    Margin: 0;
     /*  */
 }
 

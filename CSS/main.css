@@ -6,6 +6,8 @@
     font-family: 'Permanent Marker', cursive; LOGO 
     font-family: 'Permanent Marker', cursive; Headlights
     */
+
+
     /* Farver */
     --BGcolor: #1B1B11;
     --TXTcolor: #F4F1E8; 
@@ -19,4 +21,38 @@
     /*  */
 }
 
+/* Body bliver kontrollerede med grid. så der kan skiftes ud løbende */
+#wrap {
+    display: grid;
+    grid-template-areas: /* Hvordan skal grid leveres  */
+    'head'
+    'content'
+    'foot'
+}
 
+#head {
+    grid-area: head;
+    display: grid;
+    grid-template-areas: 
+    'logo' 'nav';
+
+}
+
+/* Navigaton styling */ 
+#nav{
+    grid-area: nav;
+}
+
+
+#logo{
+    grid-area: logo;
+}
+
+
+/* Footer layout */
+#foot {
+    grid-area: foot;
+    display: grid;
+    grid-template-areas: 
+    '1 2 3';
+}

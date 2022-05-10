@@ -4,22 +4,42 @@
 	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 	<title>Brainacts</title>
 	<meta name="author" content="Mie, Henrik, Gerda og Michael" />
-	<meta name="description" content=" META SEO" />
+	<meta name="description" content="META SEO" />
 	<meta name="keywords"  content="Teknisk SEO" />
 	<meta name="Resource-type" content="Document" />
-	<!-- CSS -->
+	<!--  main CSS styre layout nav & footer --> 
 	<link rel="stylesheet" type="text/css" href="CSS/main.css" />
-	<link rel="icon" type="image/x-icon" href="pic/logo/x-icon.svg" />
+	
 	<link rel="stylesheet" href="https://fonts.sandbox.google.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" /> <!-- Google Ikoner -->
+
+	<link rel="icon" type="image/x-icon" href="pic/logo/x-icon.svg"/> <!-- X-icon billede -->
+
+
 </head>
 <!-- Wrapper: kontrol margin, border, padding -->
 <body id="wrap">
+<!-- header bliver tilføjet via header.js -->
+<header id="head">
+	<span id="logo"></span>
+<!-- Nav bar, tilføjes igennem nav.js -->
+<nav id="nav"></nav> 
+</header>
+<div class="content">
+	<!-- content skal indsættes her  -->
+</div>
 
-<div data-include="modol"></div>
-	
+<!-- Footer content bliver tilføjet igennem footer.js -->
+<footer id="foot">
+
+</footer>
+
 </body>
     <script src="JS/main.js"> /* Hjernen bag skærmen  */
         <noscript> 2022 OG INTET JAVA I DIN BROWSER - FIX! </noscript>
     </script>
+	<script src="JS/header.js"></script>
+	<script src="JS/nav.js"></script>
+
+	<script src="JS/footer.js"></script>
 
     </html>

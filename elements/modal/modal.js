@@ -1,13 +1,15 @@
-// Get the modal
+// inspiration fra https://www.w3schools.com/howto/howto_css_modals.asp?fbclid=IwAR3ogY0b-JVjBt1OEyKVNJ-lIUECE0FmUBKyN4mSgpbFR-pMbPMB4ghC9Cs
+
+// modol variabel the modal
 var modal = document.getElementById("brainiactTest");
 
-// Get the button that opens the modal
+// knappen til at starte modal 
 var btn = document.getElementById("CTAtest");
 
-// Get the <span> element that closes the modal
+// Lukke funktionen
 var span = document.getElementsByClassName("close")[0];
 
-// When the user clicks on the button, open the modal
+// knappens funktion
 btn.onclick = function() {
     if (modal.style.display == "block") {
       modal.style.display = "none";
@@ -18,12 +20,12 @@ btn.onclick = function() {
 
 
 
-// When the user clicks on <span> (x), close the modal
+// funktionen til at lukke modal
 span.onclick = function() {
   modal.style.display = "none";
 }
 
-// When the user clicks anywhere outside of the modal, close it
+// Hvis der trykkes uden for modal skal der lukkes for modallen. 
 window.onclick = function(event) {
   if (event.target == modal) {
     modal.style.display = "none";

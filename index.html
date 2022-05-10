@@ -19,26 +19,34 @@
 	 
 </head>
 <!-- Wrapper: kontrol margin, border, padding -->
-<body id="wrap">
+<div id="wrap"> 
+	<!-- header section-->
+<header>
 	<!-- elements/header -->
-	<div data-include="head" id="head"></div> 
-	
+	<div data-include="head" id="head"></div>
+</header>
+
+<!-- Body section -->
+<body>
 	<!-- generel content på siden her-->
 	<div id="contentContainer">
 		<article>
 			<h3>Jeg er en kasse til alt det andet</h3>
 			<section><p> jeg er en section </p></section>
 		</article>
+
 		<!-- Modal element -->
 		<div data-include="modal"></div> 
 	</div>
 
 
-
-	<!-- elements/footer-->
-	<div data-include="foot" id="foot"> </div> 
-</body>
+</body>	
+<!-- Footer section-->
+<Footer>
+		<!-- elements/footer-->
+		<div data-include="foot" id="foot"> </div> 
+</Footer>		
+</div>
 <!-- JS hovedkontrol-->
     <script src="JS/main.js"> /* Main hjern bagskærmen  */</script>
-
-    </html>
+</html>

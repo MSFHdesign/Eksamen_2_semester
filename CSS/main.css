@@ -23,36 +23,27 @@
 
 /* Body bliver kontrollerede med grid. så der kan skiftes ud løbende */
 #wrap {
+    background-color: var(--BGcolor);
+    color: var(--TXTcolor);
     display: grid;
     grid-template-areas: /* Hvordan skal grid leveres  */
-    'head'
-    'content'
     'foot'
+    'contentcontainer'
+    'head'
 }
-
+/* head placering */ 
+/* Indholdet elements/header. */ 
 #head {
     grid-area: head;
-    display: grid;
-    grid-template-areas: 
-    'logo' 'nav';
-
 }
 
-/* Navigaton styling */ 
-#nav{
-    grid-area: nav;
-}
+/* contentContainer placering */ 
+#contentContainer {
+    grid-area: contentcontainer;
+}e
 
-
-#logo{
-    grid-area: logo;
-}
-
-
-/* Footer layout */
+/* Footer placering  */
+/* Indholdet elements/footer */
 #foot {
     grid-area: foot;
-    display: grid;
-    grid-template-areas: 
-    '1 2 3';
 }

@@ -1,0 +1,20 @@
+#footerBox {
+    width: 100%;
+    display: grid;
+    grid-template-areas: 
+    'left mid right';
+    text-align: center;
+}
+
+
+#leftBox {
+    grid-area: left;
+}
+
+#midBox {
+    grid-area: mid;
+}
+
+#rightBox {
+    grid-area: right;
+}

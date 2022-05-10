@@ -27,9 +27,9 @@
     color: var(--TXTcolor);
     display: grid;
     grid-template-areas: /* Hvordan skal grid leveres  */
-    'foot'
-    'contentcontainer'
     'head'
+    'contentcontainer'
+    'foot'
 }
 /* head placering */ 
 /* Indholdet elements/header. */ 

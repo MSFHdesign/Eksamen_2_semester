@@ -15,11 +15,10 @@
     --pop: #ff03fb; 
 }
 
-/* Body bliver kontrollerede med grid. så der kan skiftes ud løbende */
-body{
-    padding:0;
-    margin: 0;
-}
+
+
+
+/* wrap bliver kontrollerede med grid. så der kan skiftes rundt */
 #wrap {
     padding: 1em;
     margin: 0;
@@ -31,22 +30,44 @@ body{
     display: grid;
     grid-template-areas: /* Hvordan skal grid leveres  */
     'head'
-    'contentcontainer'
+    'body'
     'foot'
 }
+
+header {
+    grid-area: head;
+    padding: 0;
+    margin: 0;
+    display: grid;
+        grid-template-areas: 
+        'Navi head'
+        'hero hero';
+}
+
+body{
+    grid-area: body;
+    padding:0;
+    margin: 0;
+    display: grid;
+        grid-template-areas: none;
+}
+
+/* Footer placering  */
+/* Indholdet elements/footer */
+footer {
+    grid-area: foot;
+    display: grid;
+        grid-template-areas: none;
+}
+
 /* head placering */ 
 /* Indholdet elements/header. */ 
 #head {
-    grid-area: head;
+    display: contents;
 }
 
 /* contentContainer placering */ 
 #contentContainer {
     grid-area: contentcontainer;
-}e
-
-/* Footer placering  */
-/* Indholdet elements/footer */
-#foot {
-    grid-area: foot;
 }
+

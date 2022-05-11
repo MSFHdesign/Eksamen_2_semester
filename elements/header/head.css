@@ -1,6 +1,14 @@
-#logoName {
-  font-family: 'Permanent Marker', cursive
+
+#headerHead {
+  display: grid;
+  grid-template-areas: 
+  'logo';
+  top:0;
+  left: 0;
+padding:0;
+margin: 0;
 }
-#logo {
-  display: flex;
+
+#logoTop {
+  width: 10%;
 }

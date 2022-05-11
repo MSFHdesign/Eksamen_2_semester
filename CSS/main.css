@@ -41,7 +41,7 @@ header {
     display: grid;
         grid-template-areas: 
         'Navi head'
-        'hero hero';
+        'hero foot';
 }
 
 body{

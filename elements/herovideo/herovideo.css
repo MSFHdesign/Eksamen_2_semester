@@ -1,6 +1,6 @@
  
 #heroVideo {
-    width: calc(100% - 4px);
+    width: calc(90% - 4px);
     height: 90vh;
     border: 2px solid white;
     text-align: center;

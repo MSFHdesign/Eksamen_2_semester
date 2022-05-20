@@ -1,14 +1,44 @@
 
 #headerHead {
-  display: grid;
-  grid-template-areas: 
-  'logo';
-  top:0;
-  left: 0;
+  width: 100%;
+
 padding:0;
 margin: 0;
 }
 
 #logoTop {
-  width: 10%;
+  grid-area: logo;
+  width: 20%;
+  height: 20%
 }
+
+
+@media screen and (max-width: 350px) {
+  
+  #bNav {
+    display: content;
+  }
+
+  #wNav {
+    display: none;
+  }
+
+
+
+ }
+
+
+
+@media screen and (min-width: 351px) {
+  
+  #bNav {
+    display: none;
+  }
+
+  #wNav {
+    display: contents;
+  }
+
+
+
+ }

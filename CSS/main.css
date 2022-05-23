@@ -17,7 +17,12 @@
     --picOverlay: rgba(73, 72, 45, 0.31);
 }
 
-
+h1, h2, h3, h4, h5 {
+    font-family: 'Keep Calm', sans-serif;
+}
+p {
+    font-family: 'Helvetica';
+}
 
 
 /* wrap bliver kontrollerede med grid. så der kan skiftes rundt */

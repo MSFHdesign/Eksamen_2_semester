@@ -24,7 +24,7 @@
   }
   
   .active {
-    background-color: var(--element);
+    background-color: var( --element);
     color: white;
   }
   

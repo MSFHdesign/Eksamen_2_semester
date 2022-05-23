@@ -23,19 +23,7 @@
   right: 0;a
 }
 
-.navbar {
-    background-color: transparent;
-    position: sticky;
-}
-
-.navbar, li {
-    align-content: left;
-}
-
-.logo-image{
-    width: 10%;
-    height: 10%;
-    border-radius: 50%;
-    overflow: hidden;
-    margin-top: -6px;
+.responsive {
+  width: 100%;
+  height: auto;
 }

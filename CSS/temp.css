@@ -1,0 +1,12 @@
+#video-bg {
+    max-width: 100vw;
+    height: auto;
+}
+
+
+#logoOverlay{
+   position: absolute;
+    top: 0;
+    width: 50%;
+
+}

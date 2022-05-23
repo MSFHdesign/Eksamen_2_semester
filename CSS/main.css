@@ -41,16 +41,7 @@ p {
     'foot';
 }
 
-header {
-    grid-area: head;
-    padding: 0;
-    margin: 0;
-    overflow-x: hidden;
-    display: grid;
-        grid-template-areas: 
-        'head'
-        'hero';
-}
+
 
 body{
     grid-area: body;
@@ -71,9 +62,7 @@ footer {
 
 /* head placering */ 
 /* Indholdet elements/header. */ 
-#head {
-    display: contents;
-}
+
 
 
 

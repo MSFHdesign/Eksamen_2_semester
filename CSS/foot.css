@@ -1,20 +1,23 @@
 #footerBox {
     width: 100%;
-    display: grid;
-    grid-template-areas: 
-    'left mid right';
-    text-align: center;
+    display: flex;
 }
 
+#footerBox a {
+    text-decoration: none;
+    font-family: 'Keep Calm';
+    color: var(--TXTcolor)
+}
 
 #leftBox {
-    grid-area: left;
+    grid-area: 1;
 }
 
 #midBox {
-    grid-area: mid;
+    grid-area: 2;
 }
 
 #rightBox {
-    grid-area: right;
+    grid-area: 3;
 }
+

@@ -13,6 +13,10 @@
   background-color: var(--BGbox);
 }
 
+.topnav ul li {
+    list-style: none;
+}
+
 .topnav a {
   float: left;
   display: block;
@@ -21,6 +25,7 @@
   padding: 14px 16px;
   text-decoration: none;
   font-size: 17px;
+  
 }
 
 .topnav a:hover {
@@ -29,13 +34,34 @@
 }
 
 .topnav a.active {
-  background-color: #04AA6D;
+  width: 50px;
   color: white;
 }
 
 .topnav .icon {
   display: none;
 }
+
+.dropdown {
+  background: white;
+  visibility: hidden;
+  opacity: 0;
+  min-width: 5rem;
+  position: absolute;
+  transition: all 0.5s ease;
+  left: 0;
+  display: none;
+}
+
+.menuitem:hover > ul,
+.menuiten:focus-within > ul
+.dropdown:hover {
+  visibility: visible;
+  opacity: 1;
+  display: block;
+}
+
+
 
 @media screen and (max-width: 600px) {
   .topnav a:not(:first-child) {display: none;}
@@ -62,15 +88,25 @@
 </head>
 <body>
 
-<div class="topnav" id="myTopnav">
-  <a href="#home" class="active">Home</a>
-  <a href="#news">News</a>
-  <a href="#contact">Contact</a>
-  <a href="#about">About</a>
-  <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+<nav class="topnav" id="myTopnav">
+    <ul>
+    <li class="menuitem"><a href="index.html" class="active"><img src="/pic/logo/logo_braniacs_trans.svg" alt="Brainiacts logo top" id="logo nav"></a></li>
+    <li><a href="#">Kursusforløb</a></li>
+    <ul class="dropdown">
+        <li class="sub"> <a href=""> Kursus forløb</a></li>
+        <li class="sub"> <a href=""> Undervisning</a> </li>
+        <li class="sub"> <a href=""> Tilmelding</a></li>
+        <li class="sub"> <a href=""> Pris </a></li>
+    </ul>
+    <li><a href="about.html">Om Brainiacts</a></li>
+    <li><a href="about.html">Projekter</a></li>
+   <li> <a href="kontakt.html">Kontakt</a>
+    <a href="javascript:void(0);" class="icon" onclick="myFunction()">
     <i class="fa fa-bars"></i>
   </a>
-</div>
+
+  </ul>
+</nav>
 
 
 

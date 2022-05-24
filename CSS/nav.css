@@ -2,8 +2,7 @@
 .topnav {
 
   width: 100%;
-    height: 15%;
-   background-color: var(--BGbox);
+   background-color: transparent;
    z-index: 100000;
    position: fixed;
 
@@ -12,15 +11,13 @@
 .topnav {
   display: flex;
     justify-content: flex-end;
-    
 }
 
 
 
 #navbarlogo {
-  
     transform: scale(2);
-    background-color: var(--BGbox);
+    background-color: none;
 }
   
   .topnav a {
@@ -32,21 +29,16 @@
     padding: 14px 16px;
     text-decoration: none;
     font-size: 17px;
-      margin-top: 15px;
-      margin-left: 20px;
-      margin-right: 20px;
-
   }
   
   .active {
     position: absolute;
       left: 0;
       top: 4px;
-    background-color: none;
+    background-color: transparent;
     float: left;
     background-color: none;
     color: white;
-    
   }
   
   .topnav .icon {
@@ -57,7 +49,6 @@
     font-family: 'Keep Calm', sans-serif;
     float: left;
     overflow: hidden;
-      padding-top: 15px; 
   }
   
   .dropdown .dropbtn {
@@ -109,6 +100,7 @@
   .topnav a:not(:first-child), .dropdown .dropbtn {
     display: none;
   }
+  
   .topnav a.icon {
     float: right;
     display: block;

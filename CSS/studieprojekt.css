@@ -1,0 +1,61 @@
+@import url('http://fonts.cdnfonts.com/css/keep-calm');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-color: #1B1B11;
+  line-height: 175%;
+}
+
+.container .heading {
+  font-size: 2rem;
+  padding: 2rem;
+  text-transform: capitalize;
+  text-align: center;
+}
+
+
+.heading {
+  background-color: #151515;
+}
+
+.heading h2 {
+  color: #F5F5F5;
+  background-color: #151515;
+  font-family: 'Keep Calm', sans-serif;
+}
+
+.tekst {
+  color: #F5F5F5;
+  margin: 6rem;
+}
+
+.tekst h2 {
+  padding-bottom: 2rem;
+}
+
+.video-container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.video-container .video {
+  height: 15rem;
+  width: 25rem;
+  margin: 2rem;
+  overflow: hidden;
+}
+
+.video-container .video video {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  cursor: pointer;
+}
+
+.video-container .video video:hover {
+  transition: .2s linear;
+  transform: scale(1.3);
+}

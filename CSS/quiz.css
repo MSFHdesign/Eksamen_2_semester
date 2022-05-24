@@ -6,21 +6,18 @@
 .quizOverskrift {
     margin-left: 10%;
     padding-bottom: 2%;
-    font-size: 3vw;
+    font-size: 25px;
 }
 
 .quizbutton {
   background-color: #6C7B53;/* Green */
-    opacity: 51%;
   border: none;
   color: white;
   padding: 15px 32px;
   text-align: center;
   text-decoration: none;
   display: inline-block;
-  font-size: 16px;
-  margin: 4px 2px;
-  cursor: pointer;
+  font-size: 1vw;
     margin-left: 12.5%;
 }
 

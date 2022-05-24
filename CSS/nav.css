@@ -8,8 +8,10 @@
 
 }
 
+.topnav 
+
 #navbarlogo {
-  transform: scale(3);
+  transform: scale(2);
     padding: 10px;
     background-color: none;
 }

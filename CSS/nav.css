@@ -2,7 +2,7 @@
 .topnav {
 
   width: 100%;
-   background-color: transparent;
+   background-color: var(--BGcolor);
    z-index: 100000;
    position: fixed;
 
@@ -76,7 +76,7 @@
   }
   
   .topnav a:hover, .dropdown:hover .dropbtn {
-    background-color: var(--BGbox);
+    background-color: var(--BGcolor);
     text-decoration: underline;
     color: white;
   }

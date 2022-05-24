@@ -2,7 +2,8 @@
 .topnav {
 
   width: 100%;
-   background-color: var(--BGcolor);
+    height: 15%;
+   background-color: var(--BGbox);
    z-index: 100000;
    position: fixed;
 
@@ -19,7 +20,8 @@
 #navbarlogo {
   
     transform: scale(2);
-    background-color: none;
+    background-color: var(--BGbox);
+    padding: 10px;
 }
   
   .topnav a {

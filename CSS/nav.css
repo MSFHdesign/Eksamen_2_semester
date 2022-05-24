@@ -26,7 +26,7 @@
   
   .active {
     float: left;
-    background-color: var( --element);
+    background-color: none;
     color: white;
   }
   

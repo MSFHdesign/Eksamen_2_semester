@@ -4,9 +4,10 @@
 }
 
 .studieforsideoverskrift {
-    margin-left: 10%;
+    margin-left: %;
     padding-bottom: 2%;
     font-size: 25px;
+    justify-content: center;
 }
 
 .studieforsidebutton {

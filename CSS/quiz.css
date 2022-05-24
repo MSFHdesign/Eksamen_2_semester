@@ -1,3 +1,7 @@
+.kasse {
+   background-color: var(--BGbox);
+}
+
 .Overskrift {
     
 }
@@ -10,7 +14,7 @@
 
 .button .btn {
   position: absolute;
-  top: 85%;
+  top: %;
   left: 50%;
   transform: translate(-50%, -50%);
   -ms-transform: translate(-50%, -50%);

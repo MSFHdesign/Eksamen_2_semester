@@ -12,11 +12,13 @@
     align-content: center;
 }
 
-.h2 {
+.overskrift {
     align-content: center;
     width: 100%;
-    margin-top: 50%;
+    margin-top: 40%;
+    margin-left: 25%;
     position: absolute;
+    
     
 }
 .video-container {
@@ -39,7 +41,7 @@
 
 .button .btn {
   position: absolute;
-  top: 70%;
+  top: 80%;
   left: 50%;
   transform: translate(-50%, -50%);
   -ms-transform: translate(-50%, -50%);

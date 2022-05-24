@@ -1,0 +1,28 @@
+.header {
+    text-align: center;
+    padding-top: 4rem;
+    font-size: 2rem;
+    background-color: #151515;
+}
+
+.undervisertext {
+    text-align: center;
+    padding: 2rem;
+    padding-left: 20rem;
+    padding-right: 20rem;
+    line-height: 3rem;
+    font-size: 1rem;
+}
+
+.underviserbox {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    text-align: center;
+}
+
+.underviserimage {
+    padding-left: 6rem;
+    padding-right: 6rem;
+    padding-bottom: 2rem;
+}

@@ -8,11 +8,17 @@
 
 }
 
-.topnav 
+.topnav {
+  display: flex;
+    justify-content: flex-end;
+    
+}
+
+
 
 #navbarlogo {
-  transform: scale(2);
-    padding: 10px;
+  
+    transform: scale(2);
     background-color: none;
 }
   
@@ -28,6 +34,9 @@
   }
   
   .active {
+    position: absolute;
+      left: 0;
+      top: 4px;
     background-color: none;
     float: left;
     background-color: none;
@@ -101,6 +110,8 @@
 }
 
 @media screen and (max-width: 650px) {
+  .active {position: relative;}
+  .topnav { display: block;}
   .topnav.responsive {position: fixed;}
   .topnav.responsive .icon {
     position: fixed;
@@ -116,6 +127,7 @@
   .topnav.responsive .dropdown {float: none;}
   .topnav.responsive .dropdown-content {position: relative;}
   .topnav.responsive .dropdown .dropbtn {
+    top: 10%;
     display: block;
     width: 100%;
     text-align: left;

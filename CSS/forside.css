@@ -1,0 +1,16 @@
+.Overskrift {
+    max-width: 100%; 
+    padding-left: 39%;
+    padding-right: 39%;
+    padding-top: 5%;
+    font-size: 2vw;
+}
+
+.body-tekst {
+    max-width: 100%; 
+    padding-left: 22%;
+    padding-right: 22%; 
+    padding-bottom: 15%;
+    font-size: 1vw;
+}
+

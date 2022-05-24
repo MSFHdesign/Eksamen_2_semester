@@ -1,0 +1,100 @@
+@import url('http://fonts.cdnfonts.com/css/keep-calm');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  line-height: 175%;
+}
+
+html {
+  background-color: #1B1B11;
+}
+
+#map {
+  width: 700px;
+  height: 400px;
+  text-align: center;
+}
+
+.mapbox {
+  display: flex;
+  justify-content: center;
+  padding-bottom: 10%;
+}
+
+#marker {
+  background-image: url(../images/lokation4.svg);
+  background-size: cover;
+  background-color: none;
+  width: 50px;
+  height: 50px;
+  cursor: pointer;
+}
+.mapboxgl-popup {
+  max-width: 200px;
+}
+
+.heading {
+  font-size: 2rem;
+  padding: 2rem;
+  text-transform: capitalize;
+  text-align: center;
+}
+
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.container img {
+  max-width: 30%;
+}
+
+.heading {
+  background-color: #151515;
+}
+
+.heading h2 {
+  color: #F5F5F5;
+  background-color: #151515;
+  font-family: 'Keep Calm', sans-serif;
+}
+
+.tekst {
+  color: #F5F5F5;
+  margin: 6rem;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.tekst h3 {
+  display: flex;
+  font-size: 2rem;
+}
+
+.tekst p {
+  display: flex;
+}
+
+.tekst h4 {
+  padding-top: 2rem;
+  font-size: 1.3rem;
+  display: flex;
+}
+
+@media screen and (max-width: 650px) {
+  .logo-img {
+    display: none;
+  }
+
+  .containter {
+    display: block;
+  }
+
+  .tekst {
+    align-items: center;
+  }
+}

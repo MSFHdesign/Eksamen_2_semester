@@ -2,7 +2,8 @@
 .topnav {
 
   width: 100%;
-   background-color: var(--BGcolor);
+    height: 15%;
+   background-color: var(--BGbox);
    z-index: 100000;
    position: fixed;
 
@@ -19,7 +20,7 @@
 #navbarlogo {
   
     transform: scale(2);
-    background-color: none;
+    background-color: var(--BGbox);
 }
   
   .topnav a {
@@ -31,6 +32,10 @@
     padding: 14px 16px;
     text-decoration: none;
     font-size: 17px;
+      margin-top: 15px;
+      margin-left: 20px;
+      margin-right: 20px;
+
   }
   
   .active {
@@ -52,6 +57,7 @@
     font-family: 'Keep Calm', sans-serif;
     float: left;
     overflow: hidden;
+      padding-top: 15px; 
   }
   
   .dropdown .dropbtn {

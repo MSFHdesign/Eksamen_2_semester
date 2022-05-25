@@ -1,15 +1,26 @@
 .header {
+    display: flex;
+    justify-content: center;
     text-align: center;
     padding-top: 4rem;
     font-size: 2rem;
     background-color: #151515;
 }
 
-.undervisertext {
+.textheader {
+    display: flex;
+    justify-content: center;
     text-align: center;
-    padding: 2rem;
-    padding-left: 20rem;
-    padding-right: 20rem;
+    padding-top: 2rem;
+}
+
+.undervisertext {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    padding-left: 20%;
+    padding-right: 20%;
+    padding-bottom: 5rem;
     line-height: 3rem;
     font-size: 1rem;
 }

@@ -1,0 +1,12 @@
+.header {
+    display: flex;
+    justify-content: center;
+    padding-top: 4rem;
+    font-size: 2rem;
+    background-color: #151515;
+}
+
+.del1, .del2, .del3, .del4  {
+    width: 50%;
+}
+

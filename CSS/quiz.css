@@ -1,33 +1,34 @@
-.kasse {
-   background-color: var(--BGbox);
+.quizkasse {
+   background-color: #151515;
+    padding: 10%;
+    margin-bottom: 8%;
 }
 
-.Overskrift {
-    
+.quizOverskrift {
+    margin-left: 10%;
+    padding-bottom: 2%;
+    font-size: 25px;
 }
 
-.button {
-  position: relative;
-  max-width: 100%;
-    align-content: center;
-}
-
-.button .btn {
-  position: absolute;
-  top: %;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  -ms-transform: translate(-50%, -50%);
-  background-color: #39482D;
-  color: white;
-  font-size: 1.2vw;
-  padding: 12px 24px;
+.quizbutton {
+  background-color: #6C7B53;/* Green */
   border: none;
-  cursor: pointer;
-  border-radius: 5px;
+  color: white;
+  padding: 15px 32px;
   text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 1vw;
+    margin-left: 12.5%;
 }
 
-.button .btn:hover {
-  background-color: black;
+.quizbutton2:hover {
+  box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
+}
+
+.gif {
+    float: right;
+    margin-left: 5%;
+    max-width: 60%;
+    margin-top: -11%;
 }

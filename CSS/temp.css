@@ -10,7 +10,7 @@
     width: 100%;
     max-height: 95%;
 max-width: 100%;    
-align-items: center;
+justify-content: center;
 }
 
 .overskrift {
@@ -20,11 +20,12 @@ align-items: center;
     padding-right: 20%;
     position: absolute;
     font-size: 2vw;
+    justify-content: center;
     
     
 }
 .video-container {
-    backface-visibility: visible;
+    backface-visibility: 
     background-color: #39482D;
     opacity: 31%;
     

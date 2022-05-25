@@ -1,0 +1,20 @@
+
+.undervisning-box img {
+    margin: 20%;
+    max-width: 20%;
+    
+}
+
+.undervisning-box {
+    display: flex;
+}
+
+.undervisning-img {
+    display: flex;
+    align-items: center;
+}
+
+.undervisning-teskt {
+    display: flex;
+    flex-direction: column;
+}

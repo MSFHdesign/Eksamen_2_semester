@@ -16,10 +16,16 @@
     background-color: rgb(0,0,0); /* Fallback color */
     background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
   }
-  
+  #qLogo {
+    float: right;
+    width: 50%;
+    max-height: 40vh;
+  }
   /* Modal ContentBox */
   .modal-content {
     background-color: #1B1B11;
+
+      background-position-y: 10rem;
     color: #f2f2f2;
     margin: 5% auto; /* 5% fra top and centered, respect margin */
     padding: 20px;
@@ -44,7 +50,25 @@
     cursor: pointer;
   }
 
+  .modal-content button {
+    text-align: center;
+    width: 20%;
+  
+  }
 
+#txtbox {
+  float: none;
+  min-height: 40vh;
+}
+
+#knapper {
+  float: none;
+  display: flex;
+  flex-direction: row;
+    justify-content: center;
+    justify-items: center;
+
+}
   .yes {
     background-color: #6C7B53;/* Green */
     border: none;

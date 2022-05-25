@@ -2,12 +2,22 @@
    background-color: #151515;
     padding: 10%;
     margin-bottom: 8%;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+  height: fit-content;
 }
 
 .quizOverskrift {
-    margin-left: 10%;
+
     padding-bottom: 2%;
     font-size: 25px;
+}
+
+#box1 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
 
 .quizbutton {
@@ -19,7 +29,7 @@
   text-decoration: none;
   display: inline-block;
   font-size: 1vw;
-    margin-left: 12.5%;
+ 
 }
 
 .quizbutton2:hover {
@@ -27,7 +37,7 @@
 }
 
 .gif {
-    float: right;
+
     margin-left: 5%;
     max-width: 60%;
     margin-top: -11%;

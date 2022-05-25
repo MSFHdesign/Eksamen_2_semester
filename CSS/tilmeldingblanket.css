@@ -7,6 +7,7 @@ input[type=text], select, textarea {
   margin-top: 6px;
   margin-bottom: 16px;
   resize: vertical;
+    font-family: keepCalm;
 }
 
 input[type=submit] {
@@ -33,6 +34,12 @@ input[type=submit]:hover {
     margin-right: 20%;
 }
 
-.label {
+.check {
+    padding-top: 5%;
     padding-left: 33%;
+    padding-bottom: 5%;
+}
+
+.label {
+    padding-top: 2%;
 }

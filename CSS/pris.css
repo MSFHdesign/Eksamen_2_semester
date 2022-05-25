@@ -1,0 +1,36 @@
+.prisoverskrift {
+    max-width: 100%; 
+    padding-left: 20%;
+    padding-right: 20%;
+    padding-top: 5%;
+    font-size: 1.5vw;
+}
+
+.kursus { 
+max-width: 100%; 
+    padding-left: 20%;
+    float: left;
+}
+
+.kursuspris {
+    max-width: 100%; 
+    padding-left: 20%;
+    padding-right: 20%;
+    float: right;
+}
+
+hr.solid {
+  border-top: 3px solid #bbb;
+    max-width: 100%; 
+    margin-left: 20%;
+    margin-right: 20%;
+    margin-top: 6%;
+    margin-bottom: %;
+}
+
+.kursusbeskrivelse {
+    max-width: 100%; 
+    padding-left: 20%;
+    padding-right: 20%;
+    padding-bottom: 10%;
+}

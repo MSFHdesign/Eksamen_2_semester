@@ -20,6 +20,7 @@
   /* Modal ContentBox */
   .modal-content {
     background-color: #1B1B11;
+    background-image: url('/gif/logo-animation.gif');
     color: #f2f2f2;
     margin: 5% auto; /* 5% fra top and centered, respect margin */
     padding: 20px;

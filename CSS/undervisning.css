@@ -17,5 +17,15 @@
 .undervisning-teskt {
     display: flex;
     flex-direction: column;
-    margin: 10%
+    margin: 10%;
+    
+}
+
+.teskt-box {
+    margin: 10%;
+}
+
+div.undervisning-tekst {
+    display: flex;
+    margin: 10%;
 }

@@ -1,6 +1,6 @@
 
 .undervisning-box img {
-    margin: 20%;
+    margin: 10%;
     max-width: 20%;
     
 }
@@ -17,4 +17,5 @@
 .undervisning-teskt {
     display: flex;
     flex-direction: column;
+    margin: 10%
 }

@@ -23,10 +23,11 @@
 }
 
 .logotilmelding {
-    max-height: auto;
+    max-height: 40%;
     max-width: 50%;
+    margin-top: 10%;
     margin-left: 33%;
     margin-right: 33%;
-    margin-bottom: %;
+    margin-bottom: 10%;
 }
 

@@ -11,7 +11,7 @@ input[type=text], select, textarea {
 }
 
 input[type=submit] {
-  background-color: #04AA6D;
+  background-color: #6C7B53;
   color: white;
   padding: 12px 20px;
   border: none;
@@ -21,11 +21,12 @@ input[type=submit] {
 }
 
 input[type=submit]:hover {
-  background-color: #45a049;
+  background-color: #6C7B53;
+    opacity: 51%;
 }
 
 .blanketcontainer {
-  border-radius: 5px;
+  border-radius: px;
   background-color: ;
   padding: 20px;
     max-width: 60%;
@@ -38,7 +39,7 @@ input[type=submit]:hover {
 
 .check {
     padding-top: 5%;
-    padding-left: 20%;
+    padding-left: 21%;
     padding-bottom: 5%;
 }
 

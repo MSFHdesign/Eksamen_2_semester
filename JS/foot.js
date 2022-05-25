@@ -1,2 +1,2 @@
 
-document.getElementById('rights').innerHTML = '<p> Copyright &copy; ' + new Date().getFullYear() + ' Brainiacts';
+document.getElementById('rights').innerHTML = '<p> Copyright &copy; ' + new Date().getFullYear() + ' Brainiacs';

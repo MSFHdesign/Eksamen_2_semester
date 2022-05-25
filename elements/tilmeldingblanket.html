@@ -1,0 +1,23 @@
+<link rel="stylesheet" href="css/tilmeldingblanket.css">
+
+<div class="blanketcontainer">
+  <form action="/action_page.php">
+    <label for="fname">NAVN</label>
+    <input type="text" id="fname" name="firstname" placeholder="NAVN">
+
+    <label for="lname">EMAIL</label>
+    <input type="text" id="lname" name="lastname" placeholder="EMAIL">
+
+    <label for="country">HOLD</label>
+    <select id="country" name="HOLD">
+      <option value="kursus">KURSUSHOLD START 6. Juni </option>
+      <option value="kursus">KURSUSHOLD START 10. Sep</option>
+      <option value="kursus">KURSUSHOLD START 7. Januar</option>
+    </select>
+
+    <label for="subject">Subject</label>
+    <textarea id="subject" name="subject" placeholder="BESKRIV KORT HVORFOR DU ER EN BRAINIAC" style="height:200px"></textarea>
+
+    <input type="submit" value="BID DIG FAST!">
+  </form>
+</div>

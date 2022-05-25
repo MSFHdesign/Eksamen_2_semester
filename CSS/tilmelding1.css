@@ -18,6 +18,15 @@
      max-width: 100%; 
     padding-left: 20%;
     padding-right: 20%;
+    padding-bottom: 3%;
     align-content: center;
+}
+
+.logotilmelding {
+    max-height: auto;
+    max-width: 50%;
+    margin-left: 33%;
+    margin-right: 33%;
+    margin-bottom: 3%;
 }
 

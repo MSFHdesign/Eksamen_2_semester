@@ -19,6 +19,7 @@
 
 h1, h2, h3, h4, h5 {
     font-family: 'Keep Calm', sans-serif;
+    text-transform: uppercase;
 }
 p {
     font-family: 'Helvetica';
@@ -55,8 +56,7 @@ body{
 /* Indholdet elements/footer */
 footer {
     grid-area: foot;
-    display: grid;
-        grid-template-areas: none;
+
 }
 
 /* head placering */ 

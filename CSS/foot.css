@@ -1,6 +1,15 @@
 #footerBox {
+    padding: 5px 10px;
+    text-align: center;
     width: 100%;
     display: flex;
+    justify-content: space-evenly;
+    align-items: flex-start;
+    flex-direction: row;
+}
+
+#midBox {
+    padding: 0 10px;
 }
 
 #footerBox a {
@@ -9,15 +18,20 @@
     color: var(--TXTcolor)
 }
 
-#leftBox {
-    grid-area: 1;
+#rights {
+    text-align: center;
+    font-size: 2rem;
 }
 
-#midBox {
-    grid-area: 2;
-}
 
-#rightBox {
-    grid-area: 3;
-}
 
+@media screen and (max-width: 650px) { 
+    #footerBox {
+        align-items: center;
+        flex-direction: column;
+        flex-wrap: nowrap;
+
+    }
+
+
+}

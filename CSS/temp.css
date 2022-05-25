@@ -25,7 +25,7 @@ justify-content: center;
     
 }
 .video-container {
-    backface-visibility: 
+    backface-visibility:visible;
     background-color: #39482D;
     opacity: 31%;
     

@@ -40,8 +40,12 @@
     
 }
 
-.teskt-box {
+.tekst-box {
     margin: 10%;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    
 }
 
 div.undervisning-tekst {

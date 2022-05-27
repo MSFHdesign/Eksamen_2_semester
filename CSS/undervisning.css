@@ -1,4 +1,23 @@
 
+
+.heading {
+    background-color: #151515;
+  }
+
+
+.heading {
+    font-size: 2rem;
+    padding: 2rem;
+    text-transform: capitalize;
+    text-align: center;
+  }
+  
+.heading h2 {
+    color: #F5F5F5;
+    background-color: #151515;
+    font-family: 'Keep Calm', sans-serif;
+  }
+
 .undervisning-box img {
     margin: 10%;
     max-width: 20%;

@@ -12,6 +12,7 @@
     padding-right: 28%;
     padding-top: 5%;
     font-size: 1.5vw;
+    text-align: center;
 }
 
 .tilmeldingtekst {
@@ -19,7 +20,9 @@
     padding-left: 20%;
     padding-right: 20%;
     padding-bottom: 3%;
+    font-size: 1.5rem;
     align-content: center;
+    text-align: center;
 }
 
 .logotilmelding {

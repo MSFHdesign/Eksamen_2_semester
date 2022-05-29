@@ -7,7 +7,7 @@
 
 .heading {
     font-size: 2rem;
-    padding: 2rem;
+    padding: 4rem;
     text-transform: capitalize;
     text-align: center;
   }
@@ -19,12 +19,11 @@
   }
 
 .undervisning-box img {
-    margin: 10%;
+    margin-left: 10%;
+    margin-top: 5%;
     max-width: 20%;
     
 }
-
-
 
 .undervisning-img {
     display: flex;

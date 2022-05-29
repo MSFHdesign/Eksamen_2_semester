@@ -1,0 +1,17 @@
+.nøgleord-overskrift {
+    max-width: 100%; 
+    padding-left: 35%;
+    padding-right: 35%;
+    padding-top: 5%;
+    font-size: 2vw;
+}
+
+.nøgleord-body-tekst {
+    max-width: 100%; 
+    padding-left: 40%;
+    padding-right: 22%; 
+    padding-bottom: 8%;
+    font-size: 1vw;
+    justify-content: center;
+    line-height: 2;
+}

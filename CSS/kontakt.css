@@ -37,10 +37,10 @@ html {
 }
 
 .heading {
-  font-size: 2rem;
-  padding: 2rem;
-  text-transform: capitalize;
   text-align: center;
+  padding-top: 4rem;
+  padding-bottom: 2rem;
+  font-size: 2rem;
 }
 
 .container {

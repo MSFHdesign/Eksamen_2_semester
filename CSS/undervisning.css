@@ -24,9 +24,7 @@
     
 }
 
-.undervisning-box {
-    display: flex;
-}
+
 
 .undervisning-img {
     display: flex;
@@ -52,3 +50,14 @@ div.undervisning-tekst {
     display: flex;
     margin: 10%;
 }
+
+
+@media screen and (max-width: 650px) {
+
+   .undervisning-box img .undervisning-img img {
+       display: none;
+   }
+    
+  
+
+  }

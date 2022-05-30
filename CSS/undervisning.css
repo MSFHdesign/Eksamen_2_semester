@@ -51,9 +51,9 @@ div.undervisning-tekst {
 }
 
 
-@media screen and (max-width: 650px) {
+@media screen and (max-device-width: 1200px) {
 
-   .undervisning-box img .undervisning-img img {
+   .undervisning-box img {
        display: none;
    }
     

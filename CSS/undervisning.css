@@ -22,7 +22,6 @@
     margin-left: 10%;
     margin-top: 5%;
     max-width: 20%;
-    
 }
 
 .undervisning-img {
@@ -38,11 +37,11 @@
 }
 
 .tekst-box {
-    margin: 10%;
+    margin-top: 10%;
     display: flex;
     flex-direction: column;
     gap: 20px;
-    font-size: 1.5rem;
+    font-size: 1rem;
 }
 
 div.undervisning-tekst {

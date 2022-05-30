@@ -27,6 +27,7 @@
 .undervisning-img {
     display: flex;
     align-items: center;
+    padding-bottom: 10%;
 }
 
 .undervisning-teskt {

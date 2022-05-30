@@ -96,7 +96,7 @@ function SPM3Y(){
 
 function SPM4Y() {
   OS.innerHTML =' ER DU KLAR TiL AT BLIVE EN BRAINIACT?'
-  txt.innerHTML = `<button onclick="SPM45()" class="yes"> FUCK JA!</button>`
+  txt.innerHTML = `<button onclick="location.href='https://brainacts.msfh.dk/Tilmelding.html'" class="yes">FUCK JA!</button>`
   knp.innerHTML =''
 
 }

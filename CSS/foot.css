@@ -8,6 +8,7 @@
     align-items: flex-start;
     flex-direction: row;
     font-size: 15px;
+    padding-top: 2rem;
 }   
 
 #midBox {
@@ -22,8 +23,9 @@
 
 #rights {
     text-align: center;
-    font-size: 2rem;
+    font-size: 1rem;
     background-color: var(--BGbox);
+    padding: 2rem;
 }
 
 

@@ -1,10 +1,8 @@
 #overSkrift {
-
     text-align: center;
     padding-top: 4rem;
     padding-bottom: 2rem;
     font-size: 2rem;
-
 }
 
 .boxContainer {
@@ -14,9 +12,9 @@
     padding: 0 5%;
 }
 
-.accordion {
-    background-color: var(--element);
-    color: #444;
+.boxContainer .accordion {
+    background-color: #39482D;
+    color: white;
     cursor: pointer;
     padding: 18px;
     width: 100%;
@@ -27,8 +25,8 @@
     transition: 0.4s;
   }
   
-  .active, .accordion:hover {
-    background-color: var(--element); 
+  .boxContainer .active, .accordion:hover {
+    background-color: #39482D; 
   }
   
   .panel {

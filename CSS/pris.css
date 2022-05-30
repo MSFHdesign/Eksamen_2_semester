@@ -10,7 +10,7 @@
 max-width: 100%; 
     padding-left: 20%;
     float: left;
-    font-size: 1.5rem;
+    font-size: 1rem;
 }
 
 .kursuspris {
@@ -18,7 +18,7 @@ max-width: 100%;
     padding-left: 20%;
     padding-right: 20%;
     float: right;
-    font-size: 1.5rem;
+    font-size: 1rem;
 }
 
 hr.solid {
@@ -34,5 +34,5 @@ hr.solid {
     padding-left: 20%;
     padding-right: 20%;
     padding-bottom: 10%;
-    font-size: 1.5rem;
+    font-size: 1rem;
 }
